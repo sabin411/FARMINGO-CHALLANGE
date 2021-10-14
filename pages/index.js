@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
       <section className={styles.container}>
         <AboutFarmingo />
-        ABOUT SECTION
+        ADDED ABOUT SECTION
       </section>
     </>
   );
