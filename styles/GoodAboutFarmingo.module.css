@@ -1,0 +1,105 @@
+.aboutFarmingo_container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 1230px;
+  text-align: center;
+  position: relative;
+}
+.aboutFarmingo_header h3 {
+  position: relative;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  color: var(--bs-semi-green);
+}
+.aboutFarmingo_header h3 img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 90px;
+}
+.aboutFarmingo_header h2 {
+  font-size: 55px;
+  letter-spacing: 1.1px;
+  color: var(--bs-dark);
+}
+
+.items_container {
+  width: 100%;
+  height: max-content;
+  margin-top: 95px;
+}
+.item_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 751px;
+}
+.highlighted_image {
+  width: 947px;
+  height: 751px;
+  margin: 0 auto;
+}
+.highlighted_image img {
+  height: 100%;
+  width: 100%;
+  margin-top: 13rem;
+}
+
+.item_wrapper .shape {
+  position: absolute;
+  width: clamp(250px, 16vw, 270px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.item_wrapper .shape .shapes_section {
+  position: relative;
+  width: 100%;
+  height: 114px;
+}
+.item_wrapper .shape div,
+.item_wrapper .shape div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.shape_dark {
+  z-index: 1;
+  transition: 0.2s;
+  opacity: 0;
+}
+.shape:hover .shape_dark {
+  opacity: 1;
+}
+.shape h4 {
+  margin-top: 1rem;
+  font-size: 22px;
+  color: var(--bs-dark);
+}
+.shape p {
+  font-size: 16px;
+  color: var(--bs-semi-gray);
+  margin-top: 0.5rem;
+}
+.shape1 {
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.shape2 {
+  top: 0;
+  left: 25%;
+  /* transform: translateY(-50%); */
+}
+.shape3 {
+  top: 0;
+  right: 25%;
+  /* transform: translateY(-50%); */
+}
+.shape4 {
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
