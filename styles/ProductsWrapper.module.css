@@ -1,0 +1,94 @@
+.product_wrapper {
+  width: 100%;
+}
+.product_wrapper a {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  position: relative;
+}
+.product_wrapper a .product_bg_thmubnail {
+  width: 100%;
+  object-fit: cover;
+}
+.product_wrapper a .product_info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.product_info {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1.5rem;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(33, 37, 41, 0) 100%
+  );
+}
+.product_info h3 {
+  font-size: 22px;
+  color: var(--bs-white);
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.product_info h4 {
+  font-size: 16px;
+  color: var(--bs-white);
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 1rem;
+  transform: scale(1);
+  transition: 0.3s ease-out;
+  opacity: 1;
+}
+.product_interaction {
+  transform: translateY(-20px) scale(0);
+  display: flex;
+  width: 70%;
+  justify-content: space-evenly;
+  transition: 0.3s ease-out;
+  opacity: 0;
+}
+.product_wrapper:hover .product_info h4 {
+  transform: scale(0);
+  opacity: 0;
+}
+.product_wrapper:hover .product_interaction {
+  transform: translateY(-30px) scale(1);
+  opacity: 1;
+}
+.product_interaction a {
+  display: grid;
+  text-decoration: none;
+  place-items: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background: var(--bs-semi-green);
+  opacity: 0.7;
+  transition: 0.3s ease-out;
+}
+.product_interaction a .search_icon {
+  height: 30px;
+  width: 30px;
+}
+.product_interaction a .basket_icon {
+  height: 18px;
+  width: 18px;
+}
+.heart_icon {
+  display: inline-block;
+  color: var(--bs-light);
+  font-size: 18px;
+  font-weight: 400;
+}
+.product_interaction a:hover {
+  opacity: 1;
+}
