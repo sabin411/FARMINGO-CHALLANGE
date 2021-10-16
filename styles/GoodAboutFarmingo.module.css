@@ -91,12 +91,10 @@
 .shape2 {
   top: 0;
   left: 25%;
-  /* transform: translateY(-50%); */
 }
 .shape3 {
   top: 0;
   right: 25%;
-  /* transform: translateY(-50%); */
 }
 .shape4 {
   top: 50%;
