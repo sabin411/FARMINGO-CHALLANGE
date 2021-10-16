@@ -2,6 +2,7 @@ import styles from "../styles/Home.module.css";
 import AboutFarmingo from "../components/homeSections/GoodAboutFarmingo";
 import Head from "next/head";
 import CategoriesSec from "../components/homeSections/CategoriesSec";
+import RecommProducts from "../components/homeSections/RecommendedProducts";
 export default function Home() {
   return (
     <>
@@ -11,6 +12,7 @@ export default function Home() {
       <section className={styles.homeSections_container}>
         <AboutFarmingo />
         <CategoriesSec />
+        <RecommProducts />
       </section>
     </>
   );
