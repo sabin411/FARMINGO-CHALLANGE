@@ -39,9 +39,10 @@
   margin-bottom: 0.5rem;
 }
 .product_info h4 {
-  font-size: 16px;
-  color: var(--bs-white);
+  font-family: "Montserrat";
   font-weight: 400;
+  font-size: 18px;
+  color: var(--bs-white);
   opacity: 0.8;
   margin-top: 1rem;
   transform: scale(1);
