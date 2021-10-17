@@ -3,6 +3,7 @@ import AboutFarmingo from "../components/homeSections/GoodAboutFarmingo";
 import Head from "next/head";
 import CategoriesSec from "../components/homeSections/CategoriesSec";
 import RecommProducts from "../components/homeSections/RecommendedProducts";
+import DailyOffer from "../components/homeSections/DailyOffer";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
         <AboutFarmingo />
         <CategoriesSec />
         <RecommProducts />
+        <DailyOffer />
       </section>
     </>
   );
